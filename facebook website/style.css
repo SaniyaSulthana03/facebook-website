@@ -1,0 +1,150 @@
+*{
+    margin:0;
+}
+.header_left img{
+    height:50px;
+}
+.header{
+    padding:15px 20px;
+    display:flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    background-color:white;
+    z-index: 100;
+    box-shadow: 0 5px -9px rgba(0,0,0,0.75);
+}
+.header_left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.header_input{
+    display:flex;
+    align-items: center;
+    background-color:whitesmoke;
+    padding:10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+.header_input input{
+    border:none;
+    background-color: transparent;
+    outline:none;
+}
+.header_middle{
+    display:flex;
+    justify-content: space-evenly;
+    flex:1;
+}
+.header_option .material-symbols-outlined{
+    font-size: xx-large;
+    color:gray;
+}
+.header_option:hover .material-symbols-outlined{
+    color:blue;
+}
+.header_option{
+    display:flex;
+    padding:0px 30px;
+    align-items: center;
+    cursor:pointer;
+}
+.header_option.active .material-symbols-outlined{
+    color: blue;
+}
+.header_option.active{
+    border-bottom:4px blue solid
+}
+.header_option:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    padding:0 30px;
+    border-bottom: none;
+}
+.header_info{
+    display:flex;
+    align-items: center;
+}
+.header_info h3{
+    margin-left: 10px;
+}
+.header_right{
+    display:flex;
+    align-items: center;
+   
+}
+.header_right .material-symbols-outlined{
+    color:gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.sidebarrow{
+    display:flex;
+    align-items: center;
+    padding:10px;
+    cursor:pointer;
+}
+.sidebarrow:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+    align-items: center;
+}
+.sidebarrow h3{
+    margin-left: 20px; 
+    font-weight: 600;
+}
+.sidebarrow .material-symbols-outlined{
+    font-size: xx-large;
+    color: #2381f4;
+}
+.story{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+.story:hover{
+    transform:scale(1.07);
+}
+.story__avatar{
+    margin: 10px;
+}
+.story h3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.storyreel{
+    padding: 10px;
+    display: flex;
+}
+.{
+    display: flex;
+   
+}
+body{
+    background-color:#f1f2f5 ;
+}
+.feed{
+    flex: 1;
+    padding: 30px 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    padding: 25px 10px;
+    flex: 0.33;
+}
